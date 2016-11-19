@@ -30,7 +30,7 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
  *
  */
 public class PersistentExpenseManager extends ExpenseManager {
-    private Context context;
+    private transient Context context;
     public PersistentExpenseManager(Context context) {
         this.context = context;
         setup();

@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -17,7 +18,7 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
  * Created by LahiruJ
  */
 
-public final class PersistentTransactionDAO implements TransactionDAO {
+public final class PersistentTransactionDAO implements TransactionDAO,Serializable {
 
     private SQLiteOpenHelper dbHelper;
 

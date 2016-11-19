@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Nov 19 14:50:57 IST 2016
+#Sat Nov 19 15:35:23 IST 2016
 122.file=/Users/Lahiru/AndroidStudioProjects/SimpleExpenseManager/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
 60.set=ANDROID_RESOURCE
 129.file=/Users/Lahiru/AndroidStudioProjects/SimpleExpenseManager/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png

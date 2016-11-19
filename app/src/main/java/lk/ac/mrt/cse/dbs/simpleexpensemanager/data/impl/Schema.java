@@ -18,12 +18,14 @@ package lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl;
 
 import android.provider.BaseColumns;
 
-class Schema {
+import java.io.Serializable;
+
+class Schema implements Serializable{
 
     private Schema() {
     }
 
-    static final String DATABASE_NAME = "simple_expense_managerdb";
+    static final String DATABASE_NAME = "140262P";
 
     static class TableAccount implements BaseColumns {
 

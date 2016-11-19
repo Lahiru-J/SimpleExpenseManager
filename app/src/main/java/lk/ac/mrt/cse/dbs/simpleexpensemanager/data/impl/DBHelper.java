@@ -4,11 +4,13 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.io.Serializable;
+
 /**
  * Created by LahiruJ
  */
 
-public class DBHelper extends SQLiteOpenHelper {
+public class DBHelper extends SQLiteOpenHelper implements Serializable {
 
     public static final int database_version = 1;
     private static final String TEXT_TYPE = " TEXT";

@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +18,7 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
  * Created by LahiruJ
  */
 
-public class PersistentAccountDAO implements AccountDAO {
+public class PersistentAccountDAO implements AccountDAO,Serializable {
 
     private SQLiteOpenHelper helper;
 
